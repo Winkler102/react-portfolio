@@ -1,6 +1,16 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import About from './components/About';
+
+function setPage({ name }) {
+  switch (name) {
+    case 'resume':
+      return;
+    default:
+      return <About />;
+  }
+}
 
 function App() {
   const [tabs] = useState([
@@ -20,6 +30,7 @@ function App() {
         currentTab={currentTab}
       ></Nav>
       <main>
+        {setPage(currentTab)}
       </main>
       <Footer />
     </div>
