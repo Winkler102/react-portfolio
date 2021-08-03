@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
+import Resume from './components/Resume';
 
 function setPage({ name }) {
   switch (name) {
     case 'resume':
-      return;
+      return <Resume />;
     default:
       return <About />;
   }
