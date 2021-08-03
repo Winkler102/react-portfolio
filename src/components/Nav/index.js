@@ -3,11 +3,9 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
     const {
-        categories = [],
-        setCurrentCategory,
-        contactSelected,
-        currentCategory,
-        setContactSelected,
+        tabs = [],
+        setCurrentTab,
+        currentTab
     } = props;
 
     return (
@@ -17,16 +15,15 @@ function Nav(props) {
             </h2>
             <nav className="space-between">
                 <ul className="flex-row ">
-                    {categories.map((category) => (
+                    {tabs.map((category) => (
                         <li
-                            className={`mx-1 ${currentCategory.name === category.name && !contactSelected && 'navActive'
+                            className={`mx-1 ${currentTab.name === category.name && 'navActive'
                                 }`}
                             key={category.name}
                         >
                             <span
                                 onClick={() => {
-                                    setCurrentCategory(category);
-                                    setContactSelected(false);
+                                    setCurrentTab(category);
                                 }}
                             >
                                 {capitalizeFirstLetter(category.name)}

@@ -3,25 +3,21 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 function App() {
-  const [categories] = useState([
+  const [tabs] = useState([
     { name: 'about' },
     { name: 'projects' },
     { name: 'contact' },
     { name: 'resume' },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
+  const [currentTab, setCurrentTab] = useState(tabs[0]);
 
   return (
     <div>
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+        tabs={tabs}
+        setCurrentTab={setCurrentTab}
+        currentTab={currentTab}
       ></Nav>
       <main>
       </main>

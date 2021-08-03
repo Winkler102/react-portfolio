@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer className="flex-row px-1 space-between">
-            <p>Benjamin Winkler</p>
+            <p></p>
             <ul className="flex-row">
                 <li className="mx-1">GitHub</li>
                 <li className="mx-1">LinkedIn</li>

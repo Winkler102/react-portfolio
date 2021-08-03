@@ -93,10 +93,18 @@ a:hover {
 
 header {
   background: var(--dark);
+  position: sticky;
+  top: 0;
 }
 
 header a {
   color: var(--light);
+  display: inline-block;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #B12704;
 }
 
 button {
