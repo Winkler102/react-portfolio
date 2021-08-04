@@ -3,11 +3,14 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
+import ContactForm from './components/Contact';
 
 function setPage({ name }) {
   switch (name) {
     case 'resume':
       return <Resume />;
+    case 'contact':
+      return <ContactForm />;
     default:
       return <About />;
   }
