@@ -4,7 +4,7 @@
 
 A website made to demonstrate programming skills and to my hold resume.
 
-![screenshot](src\assets\profileImg\Screenshot.png)
+![screenshot](./src/assets/profileImg/Screenshot.png)
 
 ## Website
 
