@@ -4,9 +4,11 @@
 
 A website made to demonstrate programming skills and to my hold resume.
 
-## Wensite
+![screenshot](src\assets\profileImg\Screenshot.png)
 
-[Portfolio]()
+## Website
+
+[Portfolio](https://winkler102.github.io/react-portfolio/)
 
 ## Usage 
 
