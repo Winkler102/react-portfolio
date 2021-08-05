@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
-import Projects from './components/Projects';
+import Portfolio from './components//Portfolio';
 
 function setPage({ name }) {
   switch (name) {
@@ -13,7 +13,7 @@ function setPage({ name }) {
     case 'contact':
       return <ContactForm />;
     case 'projects':
-      return <Projects />;
+      return <Portfolio />;
     default:
       return <About />;
   }
