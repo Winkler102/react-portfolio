@@ -17,6 +17,34 @@ function Portfolio() {
             hasDeployed: false,
             deployed: '',
             repository: 'https://github.com/Winkler102/employee-manager'
+        },
+        {
+            image: emaBackground,
+            title: 'Employee Management Application',
+            hasDeployed: false,
+            deployed: '',
+            repository: 'https://github.com/Winkler102/employee-manager'
+        },
+        {
+            image: emaBackground,
+            title: 'Employee Management Application',
+            hasDeployed: false,
+            deployed: '',
+            repository: 'https://github.com/Winkler102/employee-manager'
+        },
+        {
+            image: emaBackground,
+            title: 'Employee Management Application',
+            hasDeployed: false,
+            deployed: '',
+            repository: 'https://github.com/Winkler102/employee-manager'
+        },
+        {
+            image: emaBackground,
+            title: 'Employee Management Application',
+            hasDeployed: false,
+            deployed: '',
+            repository: 'https://github.com/Winkler102/employee-manager'
         }
     ];
 
