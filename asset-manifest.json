@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.73c4b6e4.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.b05f24a5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b05f24a5.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.f32d7783.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f32d7783.js.map",
+    "static/js/2.a563ccf6.chunk.js": "/react-portfolio/static/js/2.a563ccf6.chunk.js",
+    "static/js/2.a563ccf6.chunk.js.map": "/react-portfolio/static/js/2.a563ccf6.chunk.js.map",
+    "static/js/3.cc2b9568.chunk.js": "/react-portfolio/static/js/3.cc2b9568.chunk.js",
+    "static/js/3.cc2b9568.chunk.js.map": "/react-portfolio/static/js/3.cc2b9568.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.73c4b6e4.chunk.css.map": "/react-portfolio/static/css/main.73c4b6e4.chunk.css.map",
+    "static/js/2.a563ccf6.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a563ccf6.chunk.js.LICENSE.txt",
+    "static/media/Benjamin_Winkler-resume.fac2047f.pdf": "/react-portfolio/static/media/Benjamin_Winkler-resume.fac2047f.pdf",
+    "static/media/Profileimage.9b7463c9.jpg": "/react-portfolio/static/media/Profileimage.9b7463c9.jpg",
+    "static/media/employeeManager.7384e715.PNG": "/react-portfolio/static/media/employeeManager.7384e715.PNG",
+    "static/media/moviex.9c7d1716.png": "/react-portfolio/static/media/moviex.9c7d1716.png",
+    "static/media/passwordGenerator.357e8bea.png": "/react-portfolio/static/media/passwordGenerator.357e8bea.png",
+    "static/media/petStation.b1add302.png": "/react-portfolio/static/media/petStation.b1add302.png",
+    "static/media/teamProfile.83a19e66.png": "/react-portfolio/static/media/teamProfile.83a19e66.png",
+    "static/media/weatherDash.83b2d693.png": "/react-portfolio/static/media/weatherDash.83b2d693.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f32d7783.js",
+    "static/js/2.a563ccf6.chunk.js",
+    "static/css/main.73c4b6e4.chunk.css",
+    "static/js/main.b05f24a5.chunk.js"
+  ]
+}
