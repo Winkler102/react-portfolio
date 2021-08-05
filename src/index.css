@@ -244,10 +244,17 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
+  width: 300px;
   height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
+  margin: 50px;
+}
+
+.projectInfo {
+  background-color: blue;
+}
+
+.projectInfo a {
+  color: inherit;
 }
 
 .modalBackdrop {
