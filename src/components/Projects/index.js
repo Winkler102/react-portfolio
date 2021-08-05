@@ -14,7 +14,7 @@ function Project(props) {
         <div className="img-thumbnail" style={{ backgroundImage: `url(${image})` }}>
             <div className="projectInfo">
                 {hasDeployed ? (
-                    <a rel="noreferrer" target="_blank" href={deployed}>{title}</a>
+                    <a rel="noreferrer" target="_blank" href={deployed}>{title}<br/><br/></a> 
                 ) : (
                     <p>{title}</p>
                 )}
