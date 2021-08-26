@@ -6,9 +6,17 @@ import teamProfileImg from '../../assets/projectImgs/teamProfile.png';
 import passwordGeneratorImg from '../../assets/projectImgs/passwordGenerator.png';
 import weatherDashImg from '../../assets/projectImgs/weatherDash.png';
 import petcationStationImg from '../../assets/projectImgs/petStation.png';
+import ePayImg from '../../assets/projectImgs/ePay.png';
 
 function Portfolio() {
     const projectsArray = [
+        {
+            image: ePayImg,
+            title: 'ePay',
+            hasDeployed: true,
+            deployed: 'https://frozen-atoll-82959.herokuapp.com/',
+            repository: 'https://github.com/anjubimal/Project3/'
+        },
         {
             image: emaBackground,
             title: 'Employee Management Application',
